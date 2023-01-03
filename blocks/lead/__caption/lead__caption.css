@@ -9,6 +9,8 @@
     color: #FFFFFF;
     margin: 8px 0 0 0;
     align-self: flex-start;
+    white-space: nowrap;
+    max-width: 158px;
 }
 
 @media screen and (max-width: 1023px) {
@@ -21,7 +23,6 @@
 
 @media screen and (max-width: 767px) {
     .lead__caption {
-        max-width: 158px;
         margin-top: 8px;
         margin-left: 16px;
         margin-bottom: 0;
